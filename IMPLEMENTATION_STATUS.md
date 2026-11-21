@@ -42,9 +42,17 @@ This status records only work completed and tests actually run.
 - [x] Telemetry-only reflex watchdog for focus, capture, timeout, and no-progress faults
 - [x] Session start/pause/resume/stop lifecycle with stale-generation checks
 - [x] Phase test report: `python -m pytest -q` — 30 passed, 19 warnings
-- [ ] Phase commit and push
+- [x] Phase commit and push
 
-## Later phases
+## Phase 5 / Phase F-G — Dashboard, Telemetry, and Dataset Audit
 
-- [ ] Phase 5 / F-G — Dashboard and generalization evaluation
+- [x] Local FastAPI status and pause/resume/stop controls
+- [x] Bounded capture/inference telemetry snapshots
+- [x] Title-neutral fail-closed dataset metadata audit with JSON/Markdown reports
+- [x] Phase test report: `python -m pytest -q` — 33 passed, 20 warnings
+- [x] Phase commit and push
+- [ ] Cross-game evaluation on independently selected unfamiliar games (not run)
+- [ ] Windows runtime capture/input compatibility test (not measurable in current Linux environment)
+- [ ] Real endpoint latency measurement (endpoint not configured)
+- [ ] Phase 6 / H — 8–12 hour soak test
 - [ ] Phase 6 / H — Long-run reliability
