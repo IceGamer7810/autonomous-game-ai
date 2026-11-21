@@ -54,5 +54,12 @@ This status records only work completed and tests actually run.
 - [ ] Cross-game evaluation on independently selected unfamiliar games (not run)
 - [ ] Windows runtime capture/input compatibility test (not measurable in current Linux environment)
 - [ ] Real endpoint latency measurement (endpoint not configured)
-- [ ] Phase 6 / H — 8–12 hour soak test
+
+## Phase 6 / Phase H — Reliability
+
+- [x] Synthetic bounded soak harness with JSON report
+- [x] Final test report: `python -m pytest -q` — 34 passed, 20 warnings
+- [x] Synthetic soak smoke test: valid JSON report, bounded frame buffer
+- [ ] 8–12 hour Windows/game soak test (not run)
+- [ ] Fault-injected Windows/game worker and input-release run (not run)
 - [ ] Phase 6 / H — Long-run reliability
