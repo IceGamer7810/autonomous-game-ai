@@ -32,9 +32,18 @@ This status records only work completed and tests actually run.
 - [ ] Windows runtime capture/input compatibility test (not measurable in current Linux environment)
 - [ ] Real endpoint latency measurement (endpoint not configured)
 
+## Phase 3 / Phase E — Perception, Memory, and Explorer
+
+- [x] SQLite WAL memory store with FTS5 observations
+- [x] Compact observation, action/skill, and audit-log schema foundations
+- [x] Frame hash/repetition detection
+- [x] Dependency-aware task graph
+- [x] Bounded explorer experiment state machine
+- [x] Phase test report: `python -m pytest -q` — 26 passed, 19 warnings
+- [ ] Phase commit and push
+
 ## Later phases
 
-- [ ] Phase 3 / E — Perception, memory, and explorer
-- [ ] Phase 4 / E — Planner, task graph, and reflex
+- [ ] Phase 4 / E — Planner, reflex, and session lifecycle
 - [ ] Phase 5 / F-G — Dashboard and generalization evaluation
 - [ ] Phase 6 / H — Long-run reliability
