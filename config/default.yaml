@@ -1,0 +1,14 @@
+player1:
+  endpoint: http://127.0.0.1:8000/v1
+  model: yyyang/Player-1-9B
+  api_key_env: PLAYER1_API_KEY
+  timeout_seconds: 30
+  max_retries: 1
+capture:
+  target_fps: 30
+  frame_buffer_capacity: 8
+api:
+  host: 127.0.0.1
+  port: 8765
+logging:
+  level: INFO
